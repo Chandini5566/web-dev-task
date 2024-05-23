@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210421/pngtree-luxury-green-3d-objects-frame-background-image_608983.jpg'); /* Replace 'background.jpg' with the path to your background image */
+            background-size: cover; /* Ensures the background image covers the entire page */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            background-attachment: fixed; /* Makes the background image fixed when scrolling */
+        }
+        .header, .content, .profiles {
+            background-color: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent background to the content sections */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .header h1 {
+            font-family: 'Lobster', cursive;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .profile-info {
+            text-align: center;
+        }
+        .profile-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Veri Tech Software Services</h1>
+    </div>
+
+    <div class="content">
+        <p class="styled-paragraph marquee">Welcome to Veri Tech Software Services, where a dedicated team of professionals works together to bring innovation, creativity, and expertise to the software industry. Get to know the individuals who make our company thrive.</p>
+        <div class="decoration"></div> <!-- This is the dotted line -->
+        <h2 class="team-heading">Meet our team</h2>
+        <h2 class="leadership-heading">Leadership/Management Team</h2>
+    </div>
+
+    <div class="profiles">
+        <div class="profile-row">
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Joseph Nguyen">
+                <div class="profile-info">
+                    <p class="name">Joseph Nguyen</p>
+                    <p class="role">Founder</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. L. Prasad">
+                <div class="profile-info">
+                    <p class="name">Mr. L. Prasad</p>
+                    <p class="role">CEO</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-row">
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. S. Mukesh">
+                <div class="profile-info">
+                    <p class="name">Mr. S. Mukesh</p>
+                    <p class="role">VP, Development & Growth</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. M. Lakshman">
+                <div class="profile-info">
+                    <p class="name">Mr. M. Lakshman</p>
+                    <p class="role">VP, Sales & Marketing</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. J. Hemanth">
+                <div class="profile-info">
+                    <p class="name">Mr. J. Hemanth</p>
+                    <p class="role">VP, Finance & Operations</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2 class="leadership-heading">Development Team</h2>
+    </div>
+    <div class="profiles">
+        <div class="profile-row">
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. K. Lohith">
+                <div class="profile-info">
+                    <p class="name">Mr. K. Lohith</p>
+                    <p class="role">Team Lead, SE</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. T. Naveen Sai">
+                <div class="profile-info">
+                    <p class="name">Mr. T. Naveen Sai</p>
+                    <p class="role">Software Engineer</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://as1.ftcdn.net/v2/jpg/02/35/90/48/1000_F_235904805_xmdl3ZF8zItoKMFXy4Oypnw893aclnAY.jpg" alt="Profile Picture of Ms. Shaik Chandini">
+                <div class="profile-info">
+                    <p class="name">Ms. Shaik Chandini</p>
+                    <p class="role">Software Engineer</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. Y. Mahanth">
+                <div class="profile-info">
+                    <p class="name">Mr. Y. Mahanth</p>
+                    <p class="role">Software Engineer</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-row">
+            <div class="profile">
+                <img src="https://as1.ftcdn.net/v2/jpg/02/35/90/48/1000_F_235904805_xmdl3ZF8zItoKMFXy4Oypnw893aclnAY.jpg" alt="Profile Picture of Ms. M. Suhitha Joicy">
+                <div class="profile-info">
+                    <p class="name">Ms. M. Suhitha Joicy</p>
+                    <p class="role">Software Engineer</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. Ch. Kumar">
+                <div class="profile-info">
+                    <p class="name">Mr. Ch. Kumar</p>
+                    <p class="role">Software Engineer</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. A. Krishna">
+                <div class="profile-info">
+                    <p class="name">Mr. A. Krishna</p>
+                    <p class="role">Software Engineer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="leadership-heading">Sales and Marketing Team</h2>
+    </div>
+    <div class="profiles">
+        <div class="profile-row">
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. J. Yaswanth">
+                <div class="profile-info">
+                    <p class="name">Mr. J. Yaswanth</p>
+                    <p class="role">Team Lead</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. U. Karthik">
+                <div class="profile-info">
+                    <p class="name">Mr. U. Karthik</p>
+                    <p class="role">Sales Officer</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. Feroz Khan">
+                <div class="profile-info">
+                    <p class="name">Mr. Feroz Khan</p>
+                    <p class="role">Sales Officer</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. R. Rama Rao">
+                <div class="profile-info">
+                    <p class="name">Mr. R. Rama Rao</p>
+                    <p class="role">Sales Officer</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-row">
+            <div class="profile">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/18/58/color-silhouette-cartoon-half-body-faceless-man-vector-15091858.jpg" alt="Profile Picture of Mr. H. Trinadh">
+                <div class="profile-info">
+                    <p class="name">Mr. H. Trinadh</p>
+                    <p class="role">Marketing Officer</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://as1.ftcdn.net/v2/jpg/02/35/90/48/1000_F_235904805_xmdl3ZF8zItoKMFXy4Oypnw893aclnAY.jpg" alt="Profile Picture of Ms. P. Supraja">
+                <div class="profile-info">
+                    <p class="name">Ms. P. Supraja</p>
+                    <p class="role">Marketing Officer</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="https://as1.ftcdn.net/v2/jpg/02/35/90/48/1000_F_235904805_xmdl3ZF8zItoKMFXy4Oypnw893aclnAY.jpg" alt="Profile Picture of Ms. K. Tejasri">
+                <div class="profile-info">
+                    <p class="name">Ms. K. Tejasri</p>
+                    <p class="role">Marketing Officer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
